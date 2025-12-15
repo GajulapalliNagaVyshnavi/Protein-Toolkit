@@ -1,0 +1,42 @@
+Metadata-Version: 2.4
+Name: Protein-Toolkit
+Version: 1.0.0
+Summary: A comprehensive toolkit for protein sequence analysis
+Home-page: https://github.com/GajulapalliNagaVyshnavi/Protein-Toolkit
+Author: JoVy
+Author-email: nvyshnavi36@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: numpy>=2.0.0
+Requires-Dist: biopython>=1.80
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.0.0; extra == "dev"
+Requires-Dist: black>=23.0.0; extra == "dev"
+Requires-Dist: flake8>=6.0.0; extra == "dev"
+Provides-Extra: ml
+Requires-Dist: torch>=2.9.0; extra == "ml"
+Requires-Dist: transformers>=4.57.0; extra == "ml"
+Requires-Dist: fair-esm>=2.0.0; extra == "ml"
+Provides-Extra: all
+Requires-Dist: torch>=2.9.0; extra == "all"
+Requires-Dist: transformers>=4.57.0; extra == "all"
+Requires-Dist: fair-esm>=2.0.0; extra == "all"
+Requires-Dist: pytest>=7.0.0; extra == "all"
+Requires-Dist: pytest-cov>=4.0.0; extra == "all"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+A comprehensive toolkit for protein sequence analysis
