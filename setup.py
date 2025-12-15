@@ -8,7 +8,7 @@ except FileNotFoundError:
     long_description = "A comprehensive toolkit for protein sequence analysis"
 
 setup(
-    name="Protein_Toolkit",
+    name="protein_eng",
     version="1.0.0",
     author="JoVy",
     author_email="nvyshnavi36@gmail.com",
